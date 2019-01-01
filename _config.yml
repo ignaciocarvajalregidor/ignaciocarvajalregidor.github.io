@@ -232,13 +232,13 @@ plugins:
 
 
 # mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+# whitelist:
+#   - jekyll-include-cache
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jemoji
 
 
 

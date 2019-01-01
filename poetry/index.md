@@ -11,7 +11,7 @@ feature_row:
     url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: kaqchikel2.jpg
+  - image_path: assets/images/kaqchikel2.jpg
     image_caption: "placeholder image 2"
     alt: "placeholder image 2"
     title: "Placeholder 2"
@@ -19,11 +19,11 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: kaqchikel2.jpg
+  - image_path: assets/images/kaqchikel2.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: kaqchikel2.jpg
+  - image_path: assets/images/kaqchikel2.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
@@ -31,7 +31,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: kaqchikel2.jpg
+  - image_path: assets/images/kaqchikel2.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Right Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'

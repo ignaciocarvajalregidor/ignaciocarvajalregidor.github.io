@@ -3,7 +3,7 @@ title: "Poetry"
 layout: splash
 header:
 intro: 
-  - excerpt: I am a poet'
+  - excerpt: I am a poet
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"
@@ -19,8 +19,7 @@ feature_row:
     url: "http://www.acentosreview.com/November2018/ignacio-carvajal.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: https://i0.wp.com/www.seattleescribe.org/wp-content/uploads/2018/12/0-19.jpg
-    image_caption: "No idea where this image comes from"
+  - image_path: https://i1.wp.com/www.seattleescribe.org/wp-content/uploads/2016/11/cropped-squarelogo.jpg
     alt: "Painting of bright colors"
     title: "Sueños y otros poemas"
     excerpt: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."

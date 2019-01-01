@@ -237,7 +237,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-include-cache --safe
+  - jekyll-include-cache
 
 
 # Archives

@@ -1,6 +1,7 @@
 ---
 title: "Poetry"
-layout: single
+layout: splash
+header:
 intro:
   - excerpt: "I am a poet"
 feature_row:

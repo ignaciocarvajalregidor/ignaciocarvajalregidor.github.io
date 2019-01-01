@@ -5,8 +5,7 @@ header:
   image: assets/images/poeticbridges.png
   image_description: "title page of manuscript in kaqchikel"
   caption: "Poetic Bridges Competition."
-  action:
-  	url: https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018
+  url: https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018
   excerpt: "Announcement: 2018 Poetic Bridges Competition Winner."
 feature_row:
   - image_path: assets/images/authorphoto.jpg
@@ -35,3 +34,9 @@ feature_row:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+{<!-- % include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %} -->

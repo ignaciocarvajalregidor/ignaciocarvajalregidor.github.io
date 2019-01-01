@@ -1,8 +1,7 @@
 ---
 title: "Poetry"
 layout: splash
-header:
-  caption: "test caption"
+header: false
 intro:
   - excerpt: "I am a poet"
 feature_row:

@@ -7,7 +7,7 @@ intro:
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"
-    excerpt: "Entrevista a Ignacio Carvajal por Xánath Caraza."
+    title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
     url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/"
     btn_label: "Read More"
     btn_class: "btn--primary"

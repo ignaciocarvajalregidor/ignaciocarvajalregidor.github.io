@@ -2,16 +2,15 @@
 title: "Poetry"
 layout: splash
 header:
-  overlay_color: "#000"
+<!--   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/kaqchikel2.jpg
-  caption: "I am a poet."
+  caption: "I am a poet." -->
 intro: 
   - excerpt: I am a poet'
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"
-    title: "Placeholder 1"
     excerpt: "Entrevista a Ignacio Carvajal por Xánath Caraza."
     url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/"
     btn_label: "Read More"

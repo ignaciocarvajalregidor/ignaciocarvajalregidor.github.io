@@ -2,11 +2,7 @@
 title: "Poetry"
 layout: splash
 header:
-  image: assets/images/poeticbridges.png
-  image_description: "title page of manuscript in kaqchikel"
-  caption: "Poetic Bridges Competition."
-  url: https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018
-  excerpt: "Announcement: 2018 Poetic Bridges Competition Winner."
+intro: I am a poet.
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"
@@ -38,7 +34,7 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-<!-- {% include feature_row id="intro" type="center" %} -->
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 

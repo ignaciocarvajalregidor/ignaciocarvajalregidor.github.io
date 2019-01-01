@@ -2,9 +2,11 @@
 title: "Poetry"
 layout: splash
 header:
-  image: https://static.wixstatic.com/media/6321c4_3d70acebb3e548abbe756a67d955c191~mv2.png/v1/fill/w_668,h_420,al_c,lg_1,q_80/6321c4_3d70acebb3e548abbe756a67d955c191~mv2.webp
+  image: assets/images/poeticbridges.png
   image_description: "title page of manuscript in kaqchikel"
   caption: "Poetic Bridges Competition."
+  action:
+  	url: https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018
   excerpt: "Announcement: 2018 Poetic Bridges Competition Winner."
 feature_row:
   - image_path: assets/images/authorphoto.jpg

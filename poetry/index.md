@@ -11,31 +11,20 @@ feature_row:
     url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: assets/images/kaqchikel2.jpg
-    image_caption: "placeholder image 2"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+  - image_path: http://www.acentosreview.com/November2018/_Media/malaverlaupainting_hr.jpeg
+    image_caption: "Los Colores de la X, Laura Malaver"
+    alt: "Painting of bright colors"
+    title: "xik’ik'el ch’ich' and tukur"
+    excerpt: "this metal bird / rattles like death / as it twists / above the midwest / solace"
+    url: "http://www.acentosreview.com/November2018/ignacio-carvajal.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: assets/images/kaqchikel2.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: assets/images/kaqchikel2.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: assets/images/kaqchikel2.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+  - image_path: https://i0.wp.com/www.seattleescribe.org/wp-content/uploads/2018/12/0-19.jpg
+    image_caption: "No idea where this image comes from"
+    alt: "Painting of bright colors"
+    title: "Sueños y otros poemas"
+    excerpt: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."
+    url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---

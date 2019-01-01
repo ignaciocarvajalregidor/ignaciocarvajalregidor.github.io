@@ -3,7 +3,7 @@ title: "Poetry"
 layout: splash
 header:
 intro:
-	title: "I am a poet"
+ title: "I am a poet"
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"
@@ -35,7 +35,7 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-<!-- {% include feature_row id="intro" type="center" %} -->
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 

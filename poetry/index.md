@@ -2,10 +2,6 @@
 title: "Poetry"
 layout: splash
 header:
-<!--   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/kaqchikel2.jpg
-  caption: "I am a poet." -->
 intro: 
   - excerpt: I am a poet'
 feature_row:

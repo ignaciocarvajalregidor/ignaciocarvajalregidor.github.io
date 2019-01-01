@@ -2,7 +2,8 @@
 title: "Poetry"
 layout: splash
 header:
-intro: I am a poet.
+intro: 
+	excerpt: I am a poet.
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"

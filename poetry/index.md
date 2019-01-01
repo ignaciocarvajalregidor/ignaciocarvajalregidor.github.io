@@ -29,14 +29,21 @@ feature_row:
     url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+ feature_row2:
+   - image_path: assets/images/poeticbridges.png
+    alt: "placeholder image 2"
+    title: "2018 Poetic Bridges Competition Winner"
+    url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row %}
 
-{<!-- % include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+<!-- {% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="center" %} -->

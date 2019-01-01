@@ -5,6 +5,7 @@ header:
   image: /assets/images/kaqchikel2.jpg
   image_description: "title page of manuscript in kaqchikel"
   caption: "Photo Credit: John Carter Brown Library."
+  excerpt: "I am a poet."
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"

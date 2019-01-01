@@ -4,9 +4,5 @@ layout: single
 classes:
   - landing
   - dark-theme
-header:
-  image: /assets/images/kaqchikel2.jpg
-  image_description: "title page of manuscript in kaqchikel"
-  caption: "Photo Credit: John Carter Brown Library."
 author_profile: true
 ---

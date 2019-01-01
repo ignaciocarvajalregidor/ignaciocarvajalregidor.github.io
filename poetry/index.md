@@ -2,10 +2,10 @@
 title: "Poetry"
 layout: splash
 header:
-  image: /assets/images/kaqchikel2.jpg
+  image: https://static.wixstatic.com/media/6321c4_3d70acebb3e548abbe756a67d955c191~mv2.png/v1/fill/w_668,h_420,al_c,lg_1,q_80/6321c4_3d70acebb3e548abbe756a67d955c191~mv2.webp
   image_description: "title page of manuscript in kaqchikel"
-  caption: "Photo Credit: John Carter Brown Library."
-  excerpt: "I am a poet."
+  caption: "Poetic Bridges Competition."
+  excerpt: "Announcement: 2018 Poetic Bridges Competition Winner."
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"

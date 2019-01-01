@@ -8,7 +8,7 @@ feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "placeholder image 1"
     title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
-    url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/"
+    url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/ "
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: http://www.acentosreview.com/November2018/_Media/malaverlaupainting_hr.jpeg
@@ -23,14 +23,14 @@ feature_row:
     alt: "Painting of bright colors"
     title: "Sueños y otros poemas"
     excerpt: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."
-    url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/"
+    url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/ "
     btn_label: "Read More"
     btn_class: "btn--primary"
  feature_row2:
   - image_path: assets/images/poeticbridges.png
     alt: "placeholder image 2"
     title: "2018 Poetic Bridges Competition Winner"
-    url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018"
+    url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018 "
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---

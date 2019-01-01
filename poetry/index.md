@@ -27,7 +27,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
  feature_row2:
-   - image_path: assets/images/poeticbridges.png
+  - image_path: assets/images/poeticbridges.png
     alt: "placeholder image 2"
     title: "2018 Poetic Bridges Competition Winner"
     url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018"

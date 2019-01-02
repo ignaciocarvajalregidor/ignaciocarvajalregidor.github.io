@@ -13,4 +13,5 @@ header:
       url: "/research/"
 excerpt: >
   Poet and researcher based in Austin, Texas.
+masthead: false
 ---

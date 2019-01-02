@@ -9,7 +9,7 @@ feature_row1:
   - image_path: /assets/images/duck.png
     alt: ""
     title: "Plegarias"
-    excerpt: 'cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza.'
+    excerpt: 'cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza. <br><br> 2019.'
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "Author photo"

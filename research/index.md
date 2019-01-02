@@ -7,6 +7,8 @@ classes:
 author_profile: true
 ---
 
+Brief description of your research.
+
 ## Publications
 Title. Date.
 

@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: 
   actions:
-    - label: "Forthcoming"
+    - label: "Forthcoming 2019"
       url: ""
   caption: 
 excerpt: "cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza."

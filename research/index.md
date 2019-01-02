@@ -7,10 +7,10 @@ classes:
 author_profile: true
 ---
 
-# Publications
+## Publications
 Title. Date.
 
-# Conference Presentations
+## Conference Presentations
 Title. Date.  
 
 Title. Date.  

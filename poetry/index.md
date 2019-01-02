@@ -5,7 +5,6 @@ permalink: /poetry/
 date: 2019-01-01T11:48:41-04:00
 header:
   overlay_color: "##D0D3D4"
-  overlay_filter: "0.5"
   overlay_image: 
   actions:
     - label: "Forthcoming 2019"

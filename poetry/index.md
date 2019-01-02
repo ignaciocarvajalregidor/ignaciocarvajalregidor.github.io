@@ -9,7 +9,7 @@ header:
   overlay_image: 
   actions:
     - label: "Forthcoming"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: ""
   caption: 
 excerpt: "cuando llegue la hora de compartir palabra / dame la brevedad, la sutileza."
 intro: 
@@ -18,7 +18,7 @@ feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "Author photo"
     title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
-    excerpt: "¿Cómo comienza el quehacer literario para ti?"
+    excerpt: " Me acuerdo que el primer poema que escribí fue para un concurso en el cole. Empezaba “las rosas son rojas, las violetas azules.” Era un poema de amor."
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"

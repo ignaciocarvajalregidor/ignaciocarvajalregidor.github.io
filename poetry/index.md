@@ -4,7 +4,7 @@ layout: splash
 permalink: /poetry/
 date: 2019-01-01T11:48:41-04:00
 header:
-  overlay_color: "##D0D3D4"
+  overlay_color: "#5e616c"
   overlay_image: 
   actions:
     - label: "Forthcoming 2019"

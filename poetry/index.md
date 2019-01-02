@@ -46,11 +46,26 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+ - image_path: assets/images/matterafterall.png
+    alt: "Matches and flames"
+    title: "Matter After All"
+    excerpt: " Don't you see? this is light. / this is anger."
+    url: "http://www.bmpvoices.com/matter-after-all"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: http://www.acentosreview.com/November2018/_Media/malaverlaupainting_hr.jpeg
+    image_caption: "Los Colores de la X, Laura Malaver"
+    alt: "Painting of bright colors"
+    title: "xik’ik'el ch’ich' and tukur"
+    excerpt: "this metal bird / rattles like death / as it twists / above the midwest / solace."
+    url: "http://www.acentosreview.com/November2018/ignacio-carvajal.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: https://i1.wp.com/www.seattleescribe.org/wp-content/uploads/2016/11/cropped-squarelogo.jpg
+    alt: "Painting of bright colors"
+    title: "Sueños y otros poemas"
+    excerpt: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."
+    url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/ "
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:

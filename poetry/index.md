@@ -53,11 +53,11 @@ feature_row3:
     url: "http://www.bmpvoices.com/matter-after-all "
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/matterafterall.png
-    alt: "Matches and flames"
-    title: "Matter After All"
-    excerpt: " Don't you see? this is light. / this is anger."
-    url: "http://www.bmpvoices.com/matter-after-all "
+  - image_path: /assets/images/outcast.png
+    alt: "Red flower on black"
+    title: "Three Poems"
+    excerpt: " What is it / you are so sad about?"
+    url: "https://outcastlit.us/three-poems-by-ignacio-carvajal "
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/matterafterall.png

@@ -6,3 +6,13 @@ classes:
   - dark-theme
 author_profile: true
 ---
+
+# Publications
+Title. Date.
+
+# Conference Presentations
+Title. Date.  
+
+Title. Date.  
+
+Title. Date.  

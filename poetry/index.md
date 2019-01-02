@@ -60,11 +60,11 @@ feature_row3:
     url: "https://outcastlit.us/three-poems-by-ignacio-carvajal "
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/matterafterall.png
-    alt: "Matches and flames"
-    title: "Matter After All"
-    excerpt: " Don't you see? this is light. / this is anger."
-    url: "http://www.bmpvoices.com/matter-after-all "
+  - image_path: /assets/images/wandering-song.jpg
+    alt: "Book cover: angels and skeletons"
+    title: "Wandering Song"
+    excerpt: " an anthology of Central American writers living in the United States."
+    url: "http://www.nupress.northwestern.edu/content/wandering-song "
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:

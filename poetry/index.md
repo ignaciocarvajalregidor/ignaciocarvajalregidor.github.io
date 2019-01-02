@@ -1,11 +1,12 @@
 ---
 title: "Plegarias"
 layout: splash
-permalink:
-date:
+permalink: /poetry/
+date: 2019-01-01T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
+  overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
     - label: "Forthcoming"
       url: "http://www.halperta.com/jicr-test/poetry/"

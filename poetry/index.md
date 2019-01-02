@@ -38,7 +38,7 @@ feature_row2:
   - image_path: assets/images/poeticbridges.png
     alt: "Poetic Bridges Logo"
     title: "2018 Poetic Bridges Competition Winner"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    excerpt: 'A first of its kind organization, Casa Cultural de las Americas (CCA) seeks to preserve and foster the diverse culture and arts of the Americas within the United States.'
     url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018 "
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -54,8 +54,8 @@ feature_row4:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
+    excerpt: 'A first of its kind organization, Casa Cultural de las Americas (CCA) seeks to preserve and foster the diverse culture and arts of the Americas within the United States.'
+    url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018 "
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---

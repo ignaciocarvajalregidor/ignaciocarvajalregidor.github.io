@@ -19,12 +19,12 @@ feature_row:
     alt: "Author photo"
     title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
     excerpt: " Me acuerdo que el primer poema que escribí fue para un concurso en el cole. Empezaba “las rosas son rojas, las violetas azules.” Era un poema de amor."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+  - image_path: http://www.acentosreview.com/November2018/_Media/malaverlaupainting_hr.jpeg
+    image_caption: "Los Colores de la X, Laura Malaver"
+    alt: "Painting of bright colors"
+    title: "xik’ik'el ch’ich' and tukur"
+    excerpt: "this metal bird / rattles like death / as it twists / above the midwest / solace."
+    url: "http://www.acentosreview.com/November2018/ignacio-carvajal.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg

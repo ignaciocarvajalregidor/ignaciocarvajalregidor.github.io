@@ -9,9 +9,10 @@ feature_row1:
   - image_path: /assets/images/duck.png
     alt: ""
     title: "Plegarias"
-    excerpt: 'cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza. <br><br> 2019.'
+    excerpt: 'cuando llegue la hora de compartir palabra <br> concédame la brevedad, la sutileza. <br><br> 2019.'
 feature_row:
   - image_path: assets/images/authorphoto.jpg
+    image_caption: Photo by h.
     alt: "Author photo"
     title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
     excerpt: " Me acuerdo que el primer poema que escribí fue para un concurso en el cole. Empezaba “las rosas son rojas, las violetas azules.” Era un poema de amor."

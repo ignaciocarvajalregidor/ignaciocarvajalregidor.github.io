@@ -46,7 +46,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
- - image_path: /assets/images/matterafterall.png
+  - image_path: /assets/images/matterafterall.png
     alt: "Matches and flames"
     title: "Matter After All"
     excerpt: " Don't you see? this is light. / this is anger."

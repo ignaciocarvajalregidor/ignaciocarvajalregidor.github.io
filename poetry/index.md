@@ -11,7 +11,7 @@ header:
     - label: "Forthcoming"
       url: ""
   caption: 
-excerpt: "cuando llegue la hora de compartir palabra / dame la brevedad, la sutileza."
+excerpt: "cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza."
 intro: 
   - excerpt: 'Add a brief bio or description here, if you want.'
 feature_row:

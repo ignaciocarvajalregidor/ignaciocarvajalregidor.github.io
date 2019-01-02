@@ -3,14 +3,13 @@ title: "Plegarias"
 layout: splash
 permalink: /poetry/
 date: 2019-01-01T11:48:41-04:00
-excerpt: "cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza."
 intro: 
   - excerpt: 'Add a brief bio or description here, if you want.'
 feature_row1:
   - image_path: /assets/images/duck.png
     alt: ""
     title: "Plegarias"
-    excerpt: 'cuando llegue la hora de compartir palabra / dame la brevedad, la sutileza.'
+    excerpt: 'cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza.'
 feature_row:
   - image_path: assets/images/authorphoto.jpg
     alt: "Author photo"

@@ -35,11 +35,11 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
+  - image_path: assets/images/poeticbridges.png
+    alt: "Poetic Bridges Logo"
+    title: "2018 Poetic Bridges Competition Winner"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
+    url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018 "
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:

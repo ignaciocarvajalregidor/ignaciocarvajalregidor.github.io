@@ -27,9 +27,13 @@ feature_row:
     url: "http://www.acentosreview.com/November2018/ignacio-carvajal.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: https://i1.wp.com/www.seattleescribe.org/wp-content/uploads/2016/11/cropped-squarelogo.jpg
+    alt: "Painting of bright colors"
+    title: "Sueños y otros poemas"
+    excerpt: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."
+    url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/ "
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"

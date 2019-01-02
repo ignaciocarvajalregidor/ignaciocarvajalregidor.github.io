@@ -38,7 +38,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: assets/images/poeticbridges.png
+  - image_path: /assets/images/poeticbridges.png
     alt: "Poetic Bridges Logo"
     title: "2018 Poetic Bridges Competition Winner"
     excerpt: 'A first of its kind organization, Casa Cultural de las Americas (CCA) seeks to preserve and foster the diverse culture and arts of the Americas within the United States.'
@@ -46,7 +46,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
- - image_path: assets/images/matterafterall.png
+ - image_path: /assets/images/matterafterall.png
     alt: "Matches and flames"
     title: "Matter After All"
     excerpt: " Don't you see? this is light. / this is anger."
@@ -67,6 +67,6 @@ feature_row4:
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" %}
 
 {% include feature_row id="feature_row3" type="right" %}

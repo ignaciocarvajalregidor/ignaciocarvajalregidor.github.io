@@ -1,6 +1,8 @@
 ---
-title: "Poetry"
+title: "Plegarias"
 layout: splash
+permalink:
+date:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -8,7 +10,7 @@ header:
     - label: "Forthcoming"
       url: "http://www.halperta.com/jicr-test/poetry/"
 excerpt: "Cuando llegue la hora de compartir palabra / dame la brevedad, la sutileza."
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Add a brief bio about yourself as a poet here (or not!)'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"

@@ -1,17 +1,19 @@
 ---
 title: "Plegarias"
-layout: single
-classes: wide
+layout: splash
 permalink: /poetry/
 date: 2019-01-01T11:48:41-04:00
+header:
+  overlay_color: "#5e616c"
+  overlay_image: 
+  actions:
+    - label: "Forthcoming 2019"
+      url: ""
+  caption: 
+excerpt: "cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza."
 intro: 
   - excerpt: 'Add a brief bio or description here, if you want.'
 feature_row:
-  - title: "Plegarias"
-    excerpt: "cuando llegue la hora de compartir palabra <br> dame la brevedad, la sutileza."
-    btn_label: "2019"
-    btn_class: "btn--primary"
-feature_row1:
   - image_path: assets/images/authorphoto.jpg
     alt: "Author photo"
     title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
@@ -74,9 +76,8 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row type="left" %}
 
-{% include feature_row id="feature_row1" %}
+{% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
 

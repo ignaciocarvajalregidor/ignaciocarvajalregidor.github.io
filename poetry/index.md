@@ -1,6 +1,7 @@
 ---
 title: "Plegarias"
 layout: single
+classes: wide
 permalink: /poetry/
 date: 2019-01-01T11:48:41-04:00
 intro: 

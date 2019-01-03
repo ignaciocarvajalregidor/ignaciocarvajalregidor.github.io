@@ -1,5 +1,5 @@
 ---
-title: Research
+title: pagenames.research
 layout: single
 classes:
   - landing

@@ -16,7 +16,11 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 #mutlilingual
 languages: ["en", "es"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets/js", "assets/css"]
+# defaultLang: en
+languageNames:
+  es: Español
+  en: English
 
 # Site Settings
 locale                   : "en-US"
@@ -24,8 +28,8 @@ title                    : "José Ignacio Carvajal Regidor"
 title_separator          : "|"
 name                     : "José Ignacio Carvajal Regidor"
 description              : "Research and Poetry"
-url                      : # "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+# url                      : # "https://mmistakes.github.io"
+# baseurl                  : /jicr
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/kaqchikel.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -233,6 +237,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-multiple-languages-plugin
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -242,6 +247,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-multiple-languages-plugin
 
 
 # Archives

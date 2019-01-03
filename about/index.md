@@ -1,14 +1,20 @@
 ---
-title: About
 layout: single
+title: title.bio
 classes:
   - landing
   - dark-theme
 author_profile: true
 ---
 
-Soy inmigrante. Soy Centroamericano. Soy educador. Soy estudiante. Soy costarricense. Soy Latinx. Hace mucho tiempo que me fui de mi país. Hace mucho que este país se viene convirtiendo, también – aunque sigo siendo “resident alien for tax purposes”, aunque no sea ciudadano – en mi país,para bien o para mal. (O debo quizás atreverme a decir, como dijo Dalton, “país mío, no existes”).  
+{% translate_file about/about.md %}
+{% translate titles.bio %}
 
-No sé en realidad cómo definirme. Escribo. Leo. Soy hijo, hermano, amigo. Más allá de eso, que cada uno saque sus propias conclusiones.
+{% if site.lang == "es" %}
+  {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+   <a href="{{ link1 }}" >{% t global.english %}</a>
+{% elsif site.lang == "en" %}
+  {% capture link2 %}{{ site.baseurl_root }}/es{{ page.url  }}{% endcapture %}
+  <a href="{{ link2 }}" >{% t global.spanish %}</a> and page title is {{ page.title  }} 
+{% endif %}		
 
-[[más](https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/)]

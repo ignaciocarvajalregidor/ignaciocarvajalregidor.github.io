@@ -1,7 +1,13 @@
-title:
-  bio: "biography"
-  poetry: "poetry"
-  research: "research"
-global:
+jicrtitle:
+  bio: biography
+  poetry: poetry
+  research: research
+jicrsitesettings:
+  title: José Ignacio Carvajal Regidor
+  description: Poet and researcher
+  authorbio: Poet and researcher
+jicrglobal:
   english: English
   spanish: Español
+icrpage:
+  homeexcerpt: Poet and researcher based in Austin, Texas.

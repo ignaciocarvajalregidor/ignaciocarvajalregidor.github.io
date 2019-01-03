@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
+{% capture jicrpage_title %}{% translate {{ page.title }} %}{% endcapture %}
+{% capture jicrpage_excerpt %}{% translate {{ page.excerpt }} %}{% endcapture %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -10,8 +14,8 @@ layout: default
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jicrpage_title %}<meta itemprop="headline" content="{{ jicrpage_title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jicrpage_excerpt %}<meta itemprop="description" content="{{ jicrpage_excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 

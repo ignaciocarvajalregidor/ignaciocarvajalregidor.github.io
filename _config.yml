@@ -24,10 +24,10 @@ languageNames:
 
 # Site Settings
 locale                   : "en-US"
-title                    : "José Ignacio Carvajal Regidor"
+title                    : jicrsitesettings.title
 title_separator          : "|"
 name                     : "José Ignacio Carvajal Regidor"
-description              : "Research and Poetry"
+description              : jicrsitesettings.description
 # url                      : # "https://mmistakes.github.io"
 # baseurl                  : /jicr
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,7 +113,7 @@ analytics:
 author:
   name             : "José Ignacio Carvajal Regidor"
   avatar           : "/assets/images/authorphoto.jpg"
-  bio              : "Poet & Scholar."
+  bio              : jicrsitesettings.authorbio
   location         : "Austin, Texas"
   email            :
   links:

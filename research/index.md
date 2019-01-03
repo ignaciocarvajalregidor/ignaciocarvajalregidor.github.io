@@ -1,5 +1,5 @@
 ---
-title: pagenames.research
+title: jicrtitle.research
 layout: single
 classes:
   - landing
@@ -7,14 +7,6 @@ classes:
 author_profile: true
 ---
 
-Brief description of your research.
+{% translate_file research/research.md %}
 
-## Publications
-Title. Date.
-
-## Conference Presentations
-Title. Date.  
-
-Title. Date.  
-
-Title. Date.  
+test.

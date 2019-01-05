@@ -16,9 +16,11 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
+    <!-- Multilingual: don't use 'cached' forms. -->
+
     {% include_cached browser-upgrade.html %}
     {% unless page.masthead == false %}
-      {% include_cached masthead.html %}
+      {% include masthead.html %}
     {% endunless %}
     <div class="initial-content">
       {{ content }}
@@ -26,14 +28,14 @@
 
     {% if site.search == true %}
       <div class="search-content">
-        {% include_cached search/search_form.html %}
+        {% include search/search_form.html %}
       </div>
     {% endif %}
 
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
-        {% include_cached footer.html %}
+        {% include footer.html %}
       </footer>
     </div>
 

@@ -1,13 +1,52 @@
-jicrtitle:
+jicr_title:
+  home: inicio
   bio: biografía
   poetry: poesía
   research: investigación
-jicrsitesettings:
+jicr_sitesettings:
   title: José Ignacio Carvajal Regidor
-  description: Poeta y investigador
-  authorbio: poeta y investigador
-jicrglobal:
+  description: descripción del sitio
+  authorbio: descripción del autor
+jicr_global:
   english: English
   spanish: Español
-jicrpage:
-  homeexcerpt: poeta y investigador ubaicado en Austin, Texas.
+jicr_page:
+  homeexcerpt: biografía breve.
+jicr_url:
+  home: /es/
+  bio: /about/
+  poetry: /poetry/
+  research: /research/
+jicr_poetry:
+  btn_gen: "Más"
+  title_intro: "Add a brief bio or description here, if you want."
+  title_pleg: Plegarias
+  excerpt_pleg: "cuando llegue la hora de compartir palabra <br> concédame la brevedad, la sutileza. <br><br> 2019."
+  caption_monolito: Photo by h.
+  alt_monolito: Author Photo
+  title_monolito: "Entrevista a Ignacio Carvajal por Xánath Caraza."
+  excerpt_monolito: " Me acuerdo que el primer poema que escribí fue para un concurso en el cole. Empezaba “las rosas son rojas, las violetas azules.” Era un poema de amor."
+  caption_acentos: "Los Colores de la X, Laura Malaver"
+  alt_acentos: "Painting of bright colors"
+  title_acentos: "xik’ik'el ch’ich' and tukur"
+  excerpt_acentos: "this metal bird / rattles like death / as it twists / above the midwest / solace."
+  caption_seattle: ""
+  alt_seattle: "Painting of bright colors"
+  title_seattle: "Sueños y otros poemas"
+  excerpt_seattle: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."
+  caption_bridges:
+  alt_bridges: "Poetic Bridges Logo"
+  title_bridges: "2018 Poetic Bridges Competition Winner"
+  excerpt_bridges: 'A first of its kind organization, Casa Cultural de las Americas (CCA) seeks to preserve and foster the diverse culture and arts of the Americas within the United States.'
+  caption_bmp: ""
+  alt_bmp: "Matches and flames"
+  title_bmp: "Matter After All"
+  excerpt_bmp: " Don't you see? this is light. / this is anger."
+  caption_outcast:
+  alt_outcast: "Red flower on black"
+  title_outcast: "Three Poems"
+  excerpt_outcast: " What is it / you are so sad about?"
+  caption_song: ""
+  alt_song: "Book cover: angels and skeletons"
+  title_song: "Wandering Song"
+  excerpt_song: " an anthology of Central American writers living in the United States."

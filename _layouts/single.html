@@ -2,8 +2,12 @@
 layout: default
 ---
 <!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
-{% capture jicrpage_title %}{% translate {{ page.title }} %}{% endcapture %}
-{% capture jicrpage_excerpt %}{% translate {{ page.excerpt }} %}{% endcapture %}
+{% if page.title %}
+  {% capture jicr_page_title %}{% translate {{ page.title }} %}{% endcapture %}
+{% endif %}
+{% if page.excerpt %}
+  {% capture jicr_page_excerpt %}{% translate {{ page.excerpt }} %}{% endcapture %}
+{% endif %}
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
@@ -21,15 +25,15 @@ layout: default
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if jicrpage_title %}<meta itemprop="headline" content="{{ jicrpage_title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if jicrpage_excerpt %}<meta itemprop="description" content="{{ jicrpage_excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jicr_page_title %}<meta itemprop="headline" content="{{ jicr_page_title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jicr_page_excerpt %}<meta itemprop="description" content="{{ jicr_page_excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if jicrpage_title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ jicrpage_title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if jicr_page_title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ jicr_page_title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}

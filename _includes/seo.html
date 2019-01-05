@@ -1,6 +1,8 @@
 <!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
-{% capture page_title %}{% translate {{ page.title }} %}{% endcapture %}
-{% capture site_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% capture jicr_page_title %}{% translate {{ page.title }} %}{% endcapture %}
+{% capture jicr_site_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% capture jicr_page_description %}{% translate {{ page.description }} %}{% endcapture %}
+{% capture jicr_page_excerpt %}{% translate {{ page.excerpt }} %}{% endcapture %}
 
 <!-- begin _includes/seo.html -->
 {%- if site.url -%}
@@ -20,7 +22,7 @@
 
 {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
 
-{%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
+{%- assign seo_description = jicr_page_description | default: jicr_page_excerpt | default: site.description -%}
 {%- if seo_description -%}
   {%- assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- endif -%}

@@ -2,12 +2,17 @@
 layout: default
 author_profile: false
 ---
+<!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
+{% if page.title %}
+  {% capture jicr_page_title %}{% translate {{ page.title }} %}{% endcapture %}
+{% endif %}
+
 
 <div id="main" role="main">
   {% include sidebar.html %}
 
   <div class="archive">
-    <h1 class="page__title">{{ page.title }}</h1>
+    <h1 class="page__title">{{ jicr_page_title }}</h1>
     {% for post in page.posts %}
       {% include archive-single.html %}
     {% endfor %}

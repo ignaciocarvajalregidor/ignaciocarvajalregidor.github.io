@@ -1,20 +1,31 @@
 <!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
-{% capture jicrsite_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% if site.title %}
+  {% capture jicr_site_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% endif %}
+{% if jicr_url.home %}
+  {% capture jicr_url_home %}{% translate jicr_url.home %}{% endcapture %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ jicrsite_title }}</a>
+        <a class="site-title" href="{{ jicr_url_home | default: '/' | relative_url }}">{{ jicr_site_title }}</a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+            {% if link.description %}
+             {% capture jicr_link_description %}{% translate {{ link.description }} %}{% endcapture %} {% endif %}
+            {% if link.title %}
+              {% capture jicr_link_title %}{% translate {{ link.title }} %}{% endcapture %} {% endif %}
+            {% if link.url %}
+              {% capture jicr_link_url %}{% translate {{ link.url }} %}{% endcapture %} {% endif %}
             {%- if link.url contains '://' -%}
-              {%- assign url = link.url -%}
+              {%- assign url = jicr_link_url -%}
             {%- else -%}
-              {%- assign url = link.url | relative_url -%}
+              {%- assign url = jicr_link_url | relative_url -%}
             {%- endif -%}
             <li class="masthead__menu-item">
-              <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              <a href="{{ url }}" {% if jicr_link_description %}title="{{ jicr_link_description }}"{% endif %}>{{ jicr_link_title }}</a>
             </li>
           {%- endfor -%}
         </ul>

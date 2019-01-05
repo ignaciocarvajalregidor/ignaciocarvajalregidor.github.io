@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 #mutlilingual
 languages: ["en", "es"]
-exclude_from_localizations: ["assets/js", "assets/css"]
+exclude_from_localizations: ["assets/css"]
 # defaultLang: en
 languageNames:
   es: Español
@@ -24,12 +24,12 @@ languageNames:
 
 # Site Settings
 locale                   : "en-US"
-title                    : jicrsitesettings.title
+title                    : jicr_sitesettings.title
 title_separator          : "|"
 name                     : "José Ignacio Carvajal Regidor"
-description              : jicrsitesettings.description
+description              : jicr_sitesettings.description
 # url                      : # "https://mmistakes.github.io"
-# baseurl                  : /jicr
+# baseurl                  : /
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/kaqchikel.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -113,7 +113,7 @@ analytics:
 author:
   name             : "José Ignacio Carvajal Regidor"
   avatar           : "/assets/images/authorphoto.jpg"
-  bio              : jicrsitesettings.authorbio
+  bio              : jicr_sitesettings.authorbio
   location         : "Austin, Texas"
   email            :
   links:

@@ -1,5 +1,5 @@
 ---
-title: jicrtitle.research
+title: jicr_title.research
 layout: single
 classes:
   - landing
@@ -8,5 +8,3 @@ author_profile: true
 ---
 
 {% translate_file research/research.md %}
-
-test.

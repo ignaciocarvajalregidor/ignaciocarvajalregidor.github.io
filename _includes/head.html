@@ -3,9 +3,11 @@
 {% include seo.html %}
 
 <!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
-{% capture jicrsite_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% if site.title %}
+  {% capture jicr_site_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% endif %}
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ jicrsite_title }} Feed">
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ jicr_site_title }} Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

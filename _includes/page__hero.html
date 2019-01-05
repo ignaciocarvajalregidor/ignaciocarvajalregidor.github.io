@@ -1,3 +1,34 @@
+
+<!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
+{% if site.title %}
+  {% capture jicr_site_title %}{% translate {{ site.title }} %}{% endcapture %}
+{% endif %}
+{% if page.title %}
+  {% capture jicr_page_title %}{% translate {{ page.title }} %}{% endcapture %}
+{% endif %}
+{% if page.header.image_description %}
+  {% capture jicr_page_header_image_description %}{% translate {{ page.header.image_description }} %}{% endcapture %}
+{% endif %}
+<!-- {% if action.url %}
+  {% capture jicr_action_url %}{% translate {{ action.url }} %}{% endcapture %}
+{% endif %} -->
+<!-- {% if action.label %}
+  {% capture jicr_action_label %}{% translate {{ action.label }} %}{% endcapture %}
+{% endif %} -->
+{% if page.excerpt %}
+  {% capture jicr_page_excerpt %}{% translate {{ page.excerpt }} %}{% endcapture %}
+{% endif %}
+
+{% capture jicr_page_header_cta_label %}{% translate {{ page.header.cta_label }} %}{% endcapture %}
+{% capture jicr_page_header_cta_path %}{% translate {{ page.header.cta_path }} %}{% endcapture %}
+
+{% if page.header.caption %}
+  {% capture jicr_page_header_caption %}{% translate {{ page.header.caption }} %}{% endcapture %}
+{% endif %}
+
+
+
+
 {% if page.header.image contains "://" %}
   {% capture img_path %}{{ page.header.image }}{% endcapture %}
 {% else %}
@@ -5,9 +36,9 @@
 {% endif %}
 
 {% if page.header.cta_url contains "://" %}
-  {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
+  {% capture cta_path %}{{ jicr_page_header_cta_path }}{% endcapture %}
 {% else %}
-  {% capture cta_path %}{{ page.header.cta_url | relative_url }}{% endcapture %}
+  {% capture cta_path %}{{ jicr_page_header_cta_path | relative_url }}{% endcapture %}
 {% endif %}
 
 {% if page.header.overlay_image contains "://" %}
@@ -23,9 +54,9 @@
 {% endif %}
 
 {% if page.header.image_description %}
-  {% assign image_description = page.header.image_description %}
+  {% assign image_description = jicr_page_header_image_description %}
 {% else %}
-  {% assign image_description = page.title %}
+  {% assign image_description = jicr_page_title %}
 {% endif %}
 
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
@@ -37,29 +68,35 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         {% if paginator and site.paginate_show_page_num %}
-          {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
+          {{ jicr_site_title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
-          {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+          {{ jicr_page_title | default: jicr_site_title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="page__lead">{{ jicr_page_excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% if page.read_time %}
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
       {% if page.header.cta_url %}
-        <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ jicr_page_header_cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
       {% if page.header.actions %}
         <p>
         {% for action in page.header.actions %}
-          {% if action.url contains "://" %}
-            {% assign url = action.url %}
-          {% else %}
-            {% assign url = action.url | relative_url %}
+          {% if action.url %}
+            {% capture jicr_action_url %}{% translate {{ action.url }} %}{% endcapture %}
           {% endif %}
-          <a href="{{ url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% if action.url contains "://" %}
+            {% assign url = jicr_action_url %}
+          {% else %}
+            {% assign url = jicr_action_url | relative_url %}
+          {% endif %}
+          {% if action.label %}
+            {% capture jicr_action_label %}{% translate {{ action.label }} %}{% endcapture %}
+          {% endif %}
+          <a href="{{ url }}" class="btn btn--light-outline btn--large">{{ jicr_action_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
       {% endif %}
     </div>
@@ -67,6 +104,6 @@
     <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
   {% endif %}
   {% if page.header.caption %}
-    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    <span class="page__hero-caption">{{ jicr_page_header_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>

@@ -1,3 +1,8 @@
+<!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
+<!-- {% if author.bio %}
+  {% capture jicr_author_bio %}{% translate {{ author.bio }} %}{% endcapture %}
+{% endif %} -->
+
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
 {% assign author = site.data.authors[author] | default: author %}
 
@@ -33,8 +38,9 @@
       <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% endif %}
     {% if author.bio %}
+      {% capture jicr_author_bio %}{% translate {{ author.bio }} %}{% endcapture %}
       <p class="author__bio" itemprop="description">
-        {{ author.bio }}
+        {{ jicr_author_bio }}
       </p>
     {% endif %}
   </div>

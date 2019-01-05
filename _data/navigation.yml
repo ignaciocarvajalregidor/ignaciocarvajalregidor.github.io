@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Bio"
-    url: /about/
-  - title: "Poetry"
-    url: /poetry/
-  - title: "Research"
-    url: /research/
+  - title: jicr_title.bio
+    url: jicr_url.bio
+  - title: jicr_title.poetry
+    url: jicr_url.poetry
+  - title: jicr_title.research
+    url: jicr_url.research
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

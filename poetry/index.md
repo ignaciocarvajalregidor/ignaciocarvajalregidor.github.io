@@ -1,76 +1,69 @@
 ---
-title: "Plegarias"
+title: jicr_title.poetry
 layout: splash
 permalink: /poetry/
 date: 2019-01-01T11:48:41-04:00
 intro: 
-  - excerpt: 'Add a brief bio or description here, if you want.'
+  - excerpt: jicr_poetry.title_intro
 feature_row1:
   - image_path: /assets/images/duck.png
     alt: ""
-    title: "Plegarias"
-    excerpt: 'cuando llegue la hora de compartir palabra <br> concédame la brevedad, la sutileza. <br><br> 2019.'
+    title: jicr_poetry.title_pleg
+    excerpt: jicr_poetry.excerpt_pleg
 feature_row:
   - image_path: assets/images/authorphoto.jpg
-    image_caption: Photo by h.
-    alt: "Author photo"
-    title: "Entrevista a Ignacio Carvajal por Xánath Caraza."
-    excerpt: " Me acuerdo que el primer poema que escribí fue para un concurso en el cole. Empezaba “las rosas son rojas, las violetas azules.” Era un poema de amor."
+    image_caption: jicr_poetry.caption_monolito
+    alt:   jicr_poetry.alt_monolito
+    title: jicr_poetry.title_monolito
+    excerpt: jicr_poetry.excerpt_monolito
     url: "https://revistaliterariamonolito.com/entrevista-a-ignacio-carvajal-por-xanath-caraza/"
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
   - image_path: http://www.acentosreview.com/November2018/_Media/malaverlaupainting_hr.jpeg
-    image_caption: "Los Colores de la X, Laura Malaver"
-    alt: "Painting of bright colors"
-    title: "xik’ik'el ch’ich' and tukur"
-    excerpt: "this metal bird / rattles like death / as it twists / above the midwest / solace."
+    image_caption: jicr_poetry.caption_acentos
+    alt: jicr_poetry.alt_acentos
+    title: jicr_poetry.title_acentos
+    excerpt: jicr_poetry.excerpt_acentos
     url: "http://www.acentosreview.com/November2018/ignacio-carvajal.html"
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
   - image_path: https://i1.wp.com/www.seattleescribe.org/wp-content/uploads/2016/11/cropped-squarelogo.jpg
-    alt: "Painting of bright colors"
-    title: "Sueños y otros poemas"
-    excerpt: "en el regazo de algo imposible, / mi descanso dormita, / babea, casi ronca."
+    caption: 
+    alt: jicr_poetry.alt_seattle
+    title: jicr_poetry.title_seattle
+    excerpt: jicr_poetry.excerpt_seattle
     url: "http://www.seattleescribe.org/sueno-y-otros-poemas-de-ignacio-carvajal/ "
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/poeticbridges.png
-    alt: "Poetic Bridges Logo"
-    title: "2018 Poetic Bridges Competition Winner"
-    excerpt: 'A first of its kind organization, Casa Cultural de las Americas (CCA) seeks to preserve and foster the diverse culture and arts of the Americas within the United States.'
+    alt: jicr_poetry.alt_bridges
+    title: jicr_poetry.title_bridges
+    excerpt: jicr_poetry.excerpt_bridges
     url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018 "
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
 feature_row3:
   - image_path: /assets/images/matterafterall.png
-    alt: "Matches and flames"
-    title: "Matter After All"
-    excerpt: " Don't you see? this is light. / this is anger."
+    alt: jicr_poetry.alt_bmp
+    title: jicr_poetry.title_bmp
+    excerpt: jicr_poetry.excerpt_bmp
     url: "http://www.bmpvoices.com/matter-after-all "
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
   - image_path: /assets/images/outcast.png
-    alt: "Red flower on black"
-    title: "Three Poems"
-    excerpt: " What is it / you are so sad about?"
+    alt: jicr_poetry.alt_outcast
+    title: jicr_poetry.title_outcast
+    excerpt: jicr_poetry.excerpt_outcast
     url: "https://outcastlit.us/three-poems-by-ignacio-carvajal "
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
   - image_path: /assets/images/wandering-song.jpg
-    alt: "Book cover: angels and skeletons"
-    title: "Wandering Song"
-    excerpt: " an anthology of Central American writers living in the United States."
+    alt: jicr_poetry.alt_song
+    title: jicr_poetry.title_song
+    excerpt: jicr_poetry.excerpt_song
     url: "http://www.nupress.northwestern.edu/content/wandering-song "
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'A first of its kind organization, Casa Cultural de las Americas (CCA) seeks to preserve and foster the diverse culture and arts of the Americas within the United States.'
-    url: "https://www.ccamericas.org/single-post/2018/10/26/Poetic-Bridges-Awards2018 "
-    btn_label: "Read More"
+    btn_label: jicr_poetry.btn_gen
     btn_class: "btn--primary"
 ---
 

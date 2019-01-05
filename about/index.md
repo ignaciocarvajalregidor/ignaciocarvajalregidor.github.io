@@ -1,6 +1,6 @@
 ---
 layout: single
-title: jicrtitle.bio
+title: jicr_title.bio
 classes:
   - landing
   - dark-theme

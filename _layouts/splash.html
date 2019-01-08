@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
+{% if page.title %}
+  {% capture jicr_page_title %}{% translate {{ page.title }} %}{% endcapture %}
+{% endif %}
+{% if page.excerpt %}
+  {% capture jicr_page_excerpt %}{% translate {{ page.excerpt }} %}{% endcapture %}
+{% endif %}
+
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if jicr_page_title %}<meta itemprop="headline" content="{{ jicr_page_title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jicr_page_excerpt %}<meta itemprop="description" content="{{ jicr_page_excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>

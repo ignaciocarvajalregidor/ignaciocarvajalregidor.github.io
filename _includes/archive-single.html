@@ -1,0 +1,48 @@
+<!-- Multilingual: include this line to declare variables for translated versions of each existing variable, then replace with new variable below. -->
+{% if post.title %}
+  {% capture jicr_post_title %}{% translate {{ post.title }} %}{% endcapture %}
+{% endif %}
+
+
+
+{% if post.header.teaser %}
+  {% capture teaser %}{% translate {{ post.header.teaser }} %}{% endcapture %}
+{% else %}
+  {% capture teaser %}{% translate {{ site.teaser }} %}{% endcapture %}
+{% endif %}
+
+{% if post.id %}
+     {% capture jicr_post_title %}{% translate {{ post.title }} %}{% endcapture %}
+     {% assign title = jicr_post_title | markdownify | remove: "<p>" | remove: "</p>" %}
+  {% else %}
+    {% capture title %}{% translate {{ post.title }} %}{% endcapture %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | relative_url }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    {% if post.read_time %}
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+    {% if post.excerpt %}
+      {% capture jicr_excerpt %}{% translate {{ post.excerpt }} %}{% endcapture %}
+    <p class="archive__item-excerpt" itemprop="description">{{ jicr_excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+  </article>
+</div>

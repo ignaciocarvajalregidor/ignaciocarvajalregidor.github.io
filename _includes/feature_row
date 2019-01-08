@@ -1,0 +1,63 @@
+{% if f.btn_label %}
+  {% capture jicr_btn_label %}{% translate {{ f.btn_label }} %}{% endcapture %}
+{% endif %}
+
+
+
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<div class="feature__wrapper">
+
+  {% for f in feature_row %}
+
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+    {% endif %}
+
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            <img src=
+              {% if f.image_path contains "://" %}
+                "{{ f.image_path }}"
+              {% else %}
+                "{{ f.image_path | relative_url }}"
+              {% endif %}
+            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {% if f.image_caption %}
+              {% capture jicr_image_caption %}{% translate {{ f.image_caption }} %}{% endcapture %}
+              <span class="archive__item-caption">{{ jicr_image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            {% capture jicr_title %}{% translate {{ f.title }} %}{% endcapture %}
+            <h2 class="archive__item-title">{{ jicr_title }}</h2>
+          {% endif %}
+
+          {% if f.excerpt %}
+            {% capture jicr_excerpt %}{% translate {{ f.excerpt }} %}{% endcapture %}
+            <div class="archive__item-excerpt">
+              {{ jicr_excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            {% capture jicr_btn_label %}{% translate {{ f.btn_label }} %}{% endcapture %}
+            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ jicr_btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

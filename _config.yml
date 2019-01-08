@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
-# remote_theme             : "mmistakes/minimal-mistakes@4.14.1"
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes@4.14.1"
 minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 #mutlilingual
@@ -28,8 +28,8 @@ title                    : jicr_sitesettings.title
 title_separator          : "|"
 name                     : "José Ignacio Carvajal Regidor"
 description              : jicr_sitesettings.description
-# url                      : # "https://mmistakes.github.io"
-# baseurl                  : /
+url                      : "https://halperta.com"
+baseurl                  : /jicr-test
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/kaqchikel.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)

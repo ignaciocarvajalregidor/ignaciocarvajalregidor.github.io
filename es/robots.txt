@@ -1,1 +1,1 @@
-Sitemap: https://ignaciocarvajalregidor.github.io/es/sitemap.xml
+Sitemap: https://ignaciocarvajalregidor.github.io//es/sitemap.xml
